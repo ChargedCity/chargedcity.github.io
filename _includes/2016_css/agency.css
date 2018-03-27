@@ -349,16 +349,23 @@ header {
 
 header .intro-text {
     padding-top: 25vh;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 header .intro-text .intro-lead-in {
     margin-top: 60px
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     font-family: "Avenir";
-    font-size: 30px;
+    font-size: 15px;
     /* font-style: italic; */
     line-height: 22px;
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+.img-sponsor {
+  padding-bottom: 50px;
+  width: 60%;
 }
 
 header .intro-text .intro-heading {
@@ -371,9 +378,12 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    .img-sponsor {
+      padding-bottom: 0px;
+    }
+
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
@@ -382,10 +392,11 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px; */
+        font-weight: bold;
         margin-top: 60px;
-        margin-bottom: 25px;
+        margin-bottom: 5px;
         font-family: "Avenir";
-        font-size: 30px;
+        font-size: 20px;
         /* font-style: italic; */
         line-height: 22px;
         color: #4A4A4A;

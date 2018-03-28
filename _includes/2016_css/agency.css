@@ -352,7 +352,6 @@ header {
 }
 
 header .intro-text {
-    padding-top: 25vh;
     padding-bottom: 25px;
 }
 
@@ -384,10 +383,6 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     .img-sponsor {
       padding-bottom: 0px;
-    }
-
-    header .intro-text {
-        padding-top: 300px;
     }
 
     header .intro-text .intro-lead-in {

@@ -26,9 +26,9 @@ gems:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url: https://www.facebook.com
+    url: https://www.facebook.com/chargedcity/
   - title: twitter
-    url: https://twitter.com
+    url: https://twitter.com/ChargedCity
 
 # Build settings
 markdown: kramdown

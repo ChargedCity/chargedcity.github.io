@@ -243,12 +243,15 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    /* background-color: #222; */
+    background-color: #ffffff;
+    // TODO: Fix this, doesnt look good mobile
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    /* color: #{{ site.data.template.color.primary }}; */
+    // TODO: Fix this, doesnt look good mobile
 }
 
 .navbar-default .navbar-brand:hover,
@@ -335,7 +338,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    height: 100vh;
+    /* height: 100vh; */
+    padding-bottom: 30vh;
     text-align: center;
     color: #F9F9F9;
     background-attachment: scroll;
@@ -414,6 +418,7 @@ header .intro-text .intro-heading {
 
 section {
     padding: 100px 0;
+    background-color: #FBFBFB;
 }
 
 aside.clients h2,
@@ -441,6 +446,10 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#about {
+  background-color: #f9f9f9;
 }
 
 #speakers .speakers-item {

@@ -9,13 +9,11 @@ markdown: kramdown
 facebook:
   app_id:
 
-logo: "../css/2016_style/img/icon-large.png"
+logo: swift.png
 
 social:
   name: Charged Facebook Page
   link: "https://www.facebook.com/chargedcity/"
-
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
 # Google Analytics
 google_analytics: UA-116567509-1

@@ -9,7 +9,7 @@ markdown: kramdown
 facebook:
   app_id:
 
-logo: "../swift.png"
+image: "swift.png"
 
 social:
   name: Charged Facebook Page

@@ -9,13 +9,24 @@
             </div>
             <div class="row">
 
-            {% for post in site.categories.2017_speakers %}
-                <div class=".col-sm-6 .col-md-6">
+            {% for post in site.categories.2017_speakers limit: 2 %}
+                <div class="col-md-6 col-sm-6 col-6 speakers-item">
                     <a href="#{{ post.name }}" class="speakers-link">
                         <img src="../css/2017_style/img/sponsors/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.title }}">
                     </a>
                 </div>
             {% endfor %}
+          </div>
+
+          <div class="row">
+            {% for post in site.categories.2017_speakers limit: 2 offset: 2 %}
+                <div class="col-md-6 col-sm-6 col-6 speakers-item">
+                    <a href="#{{ post.name }}" class="speakers-link">
+                        <img src="../css/2017_style/img/sponsors/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.title }}">
+                    </a>
+                </div>
+            {% endfor %}
+
             </div>
         </div>
     </section>
